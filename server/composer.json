@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "markwilson/xml-to-json": "^0.1.4",
+        "nette/caching": "^3.0",
+        "php-di/php-di": "^6.0",
+        "slim/psr7": "^1.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {"GovReader\\": "src/"}
+    }
+}

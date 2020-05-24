@@ -1,0 +1,13 @@
+
+Article properties
+
+    Provided
+    - Title
+    - Date
+    - Summary
+    - Link
+
+    Desired
+    - Publisher
+        target: span.app-c-publisher-metadata__definition-sentence
+        returns: HTMLCollection or one or more <a> elements
