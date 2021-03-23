@@ -87,7 +87,7 @@
 
         mounted() {
 
-            const RSS_URL = 'http://sqdstaging.online/govreader/feed';
+            const RSS_URL = 'http://localhost:8090/feed';
 
             fetch( RSS_URL )
                 .then( response => this.feeds = response.json() )
